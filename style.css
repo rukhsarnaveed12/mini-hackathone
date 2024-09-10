@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main1{
+    padding-left: 100px;
+    top: -100px;
+}
+.btn-dark{
+    margin-left: 100px;
+}
+.section1{
+    margin: 50px 60px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 13%;
+    margin: 2% 5%;
+    gap: 20px;
+  }
+  
+  .main img {
+    width: 100%;
+    margin: 0 1%;
+  }
+  .service {
+    display: flex;
+    width: 100%;
+    gap: 5%;
+  }
+  
+  .service h3 {
+    background-color: #B9FF66;
+    margin: 10px 50px;
+    width: 19%;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+    padding-top: 02px;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-body {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    flex-wrap: wrap;
+  
+  
+  }
+  
+  .card-body {
+    width: 400px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f3f3f3;
+  }
+  
+  .card-body h1 {
+    padding-bottom: 70px;
+  }
+  .accordion-buttoncollapsed{
+background-color: #B9FF66;
+  }
+  .form-container {
+    top: 20px;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 60%;
+    max-width: 1000px;
+    margin: 0 1.5rem;
+  }
+  
+  form {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .radio-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .radio-option {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    position: relative;
+  }
+  
+  .radio-option input {
+    visibility: hidden;
+  }
+  
+  .custom-radio {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-right: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .radio-option input:checked + .custom-radio {
+    border-color: blue;
+    background-color: blue;
+  } 
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  button {
+    background-color: black;
+    color: #f3f3f3;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  .decorative-elements {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+  }
+  
+  .black-star {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .green-star {
+    width: 50px;
+    height: 50px;
+    background-color: #b3ff00;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+  .span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+  }
+  .hr-or {
+    background-color: #cdcdcd;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+footer.nb-footer {
+background: #222;
+border-top: 4px solid #b78c33; }
+footer.nb-footer .about {
+margin: 0 auto;
+margin-top: 40px;
+max-width: 1170px;
+text-align: center; }
+footer.nb-footer .about p {
+font-size: 13px;
+color: #999;
+margin-top: 30px; }
+footer.nb-footer .about .social-media {
+margin-top: 15px; }
+footer.nb-footer .about .social-media ul li a {
+display: inline-block;
+width: 45px;
+height: 45px;
+line-height: 45px;
+border-radius: 50%;
+font-size: 16px;
+color: #b78c33;
+border: 1px solid rgba(255, 255, 255, 0.3); }
+footer.nb-footer .about .social-media ul li a:hover {
+background: #b78c33;
+color: #fff;
+border-color: #b78c33; }
+footer.nb-footer .footer-info-single {
+margin-top: 30px; }
+footer.nb-footer .footer-info-single .title {
+color: #aaa;
+text-transform: uppercase;
+font-size: 16px;
+border-left: 4px solid #b78c33;
+padding-left: 5px; }
+footer.nb-footer .footer-info-single ul li a {
+display: block;
+color: #aaa;
+padding: 2px 0; }
+footer.nb-footer .footer-info-single ul li a:hover {
+color: #b78c33; }
+footer.nb-footer .footer-info-single p {
+font-size: 13px;
+line-height: 20px;
+color: #aaa; }
+footer.nb-footer .copyright {
+margin-top: 15px;
+background: #111;
+padding: 7px 0;
+color: #999; }
+footer.nb-footer .copyright p {
+margin: 0;
+padding: 0; }
+
+
+
+
+/* Media Queries */
+
+/* For devices 320px and up (small screens) */
+@media (max-width: 320px) {
+    .section1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main {
+        flex-direction: column;
+        width: 100%;
+        margin: 1% 0;
+    }
+
+    .service h3 {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .form-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .decorative-elements {
+        width: 150px;
+        height: 150px;
+    }
+
+    .black-star, .green-star {
+        width: 60px;
+        height: 60px;
+    }
+
+    .span-or {
+        width: 40px;
+    }
+}
+
+/* For devices 768px and up (tablets) */
+@media (max-width: 768px) {
+    .section1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main {
+        flex-direction: column;
+        width: 100%;
+        margin: 1% 0;
+    }
+
+    .service h3 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .form-container {
+        width: 90%;
+    }
+
+    .card-body {
+        width: 90%;
+        height: auto;
+    }
+
+    .decorative-elements {
+        width: 150px;
+        height: 150px;
+    }
+
+    .black-star, .green-star {
+        width: 60px;
+        height: 60px;
+    }
+
+    .span-or {
+        width: 40px;
+    }
+}
